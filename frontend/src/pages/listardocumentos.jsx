@@ -30,6 +30,7 @@ function ListarDocumentos() {
 
   return (
     <main>
+      <hr />
       <h1>Textos procesados</h1>
 
       {error && <p className="mensaje-error">{error}</p>}
@@ -61,6 +62,7 @@ function ListarDocumentos() {
           </article>
         ))}
       </section>
+      <hr />
     </main>
   );
 }
