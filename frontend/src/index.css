@@ -1,0 +1,23 @@
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f4f7fb;
+}
+
+main {
+  min-height: calc(100vh - 64px);
+}
+
+.texto-original {
+  line-height: 1.8;
+  white-space: pre-wrap;
+}
+
+.card {
+  border: 0;
+}
+
+.estado {
+  text-transform: capitalize;
+}
